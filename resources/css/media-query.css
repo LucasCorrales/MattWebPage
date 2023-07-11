@@ -1,0 +1,326 @@
+@media only screen and (max-width:1370px){
+ 
+    .biografia{
+        background-image: linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.3)),url(img/biografia2.jpg);
+    }
+    .bio-h{
+        font-size: 270%;
+        margin:50px;   
+    }
+
+    .bio-box{
+        margin-top: 210px;
+        margin-bottom: 170px;
+        margin-right: 80px;
+        font-size: 110%;
+        padding: 30px;
+    }
+
+    .music-heading{
+        margin-top: 80px;
+        margin-bottom: 30;
+    }
+
+
+    ul.Mslider,
+    .music-box,
+    .music-box iframe{
+        width:750;
+        height:550;
+    }
+
+    .music-menu{
+        margin-bottom: -10px;       
+    } 
+ 
+    .mailing-list{
+        margin-left: 0px;
+      }
+    
+      .contactForm{
+        padding-right:10px;
+
+    }
+      .contactForm{
+        margin-right: 30px;
+      }
+
+      .contactForm h2{
+        font-size: 250%;
+      }
+
+      .contactForm p{
+        font-size: 100%;
+      }
+
+      .contactForm input{
+        font-size: 60%;
+      }
+      
+      .btn{
+        margin-top: -10px;
+      }
+
+      .contact-box{
+        background-color: rgba(0, 0, 0, 0.3);
+        width: 430px;
+        height:270px;     
+        font-size: 280%;
+        padding-top: 65px; 
+        margin-bottom: 20%;
+      }
+
+      .contacto span{
+        padding-top:16px;
+      }
+    
+      
+    .contacto ul{
+        font-size: 270%;
+    }
+
+
+    .image-slider{
+      width: 80vh;
+      height: 100vh;
+  
+    }
+
+
+    #slider-span1:target ~ .image-slider{left:126%;}
+    #slider-span2:target ~ .image-slider{left:73%;}
+    #slider-span3:target ~ .image-slider{left:15%;}
+    #slider-span4:target ~ .image-slider{left:-44%;}
+    #slider-span5:target ~ .image-slider{left:-105%;}
+
+    }
+
+
+
+
+@media only screen and (max-width:1024px){
+    
+  .biografia{
+    height: 100vh;
+  }
+
+  
+  .bio-box{
+    margin-top: 205px;
+    margin-right: 55px;
+    font-size: 105%;
+    width: 470px;
+  }
+
+  .bio-h{
+    margin-top: 40px;
+  }
+
+
+  .music-section{
+    font-size: 95%;
+    margin-bottom: 180px;
+  }
+  
+  .music-box{
+    margin-top: 25px;
+  }
+
+  .music-heading{
+    margin-bottom:40px;
+  }
+
+  .music-box,
+  ul.Mslider,
+  .music-box iframe{
+    width:620px;
+    height:420px;
+  }
+
+
+  .galeria{
+    margin-bottom: 0px;
+  }
+
+  .slides-div img{
+    height:44vh;
+  }
+
+  .slide-container{
+    margin-top: -180px;
+  }
+
+
+
+  #slider-span1:target ~ .image-slider{left:146%;}
+  #slider-span2:target ~ .image-slider{left:75%;}
+  #slider-span3:target ~ .image-slider{left:9%;}
+  #slider-span4:target ~ .image-slider{left:-60%;}
+  #slider-span5:target ~ .image-slider{left:-130%;}
+
+  .contacto ul{
+    margin-right: 4%;
+  }
+  .contacto li{
+    font-size: 115%;
+  }
+  
+  .mailing-list{
+    height:86vh;
+  }
+  
+  .contact-box{
+    margin-bottom: 23%;
+  }
+  .contacto{
+    height:86vh;
+  }
+  .contacto video{
+    height: 87vh;
+  }
+
+
+
+
+}
+
+
+
+@media only screen and (max-width:767px){
+    
+  .biografia{
+    background-image: linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.3)),url(img/bio767.jpeg);
+  }
+
+  .bio-box{
+    margin-top: 220px;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .music-box,
+  ul.Mslider,
+  .music-box iframe{
+    width:630px;
+    height:430px;
+  }
+
+
+  .galeria{
+    margin-bottom: 10px;
+  }
+
+  .slide-container{
+    margin-top:-190;
+  }
+
+  .slides-div img{
+    height:38vh;
+  }
+
+
+  #slider-span1:target ~ .image-slider{left:150%;}
+  #slider-span2:target ~ .image-slider{left:70%;}
+  #slider-span3:target ~ .image-slider{left:-11%;}
+  #slider-span4:target ~ .image-slider{left:-95%;}
+  #slider-span5:target ~ .image-slider{left:-177%;}
+
+  .mailing-list{
+    background-image: url(img/IMG_0392.jpeg);
+    background-size: cover;
+    margin-top: -100px;
+    background-attachment: fixed;
+   
+  }
+
+  .contacto{
+    height: 82vh;
+  }
+
+  .contactForm{
+    float: none;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contacto video{
+    height: 80%;
+  }
+
+
+  .contacto ul{
+    font-size: 220%;
+  }
+
+  footer{
+    margin-top: 0px;
+  }
+
+}
+
+@media only screen and (max-width:479px){
+    
+  .biografia{
+    background-image: linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.3)),url(img/bio479.jpeg);
+    background-size: 140%;
+    height:70vh;
+  }
+
+  .bio-box{
+    font-size:90%;
+    width: 400px;
+    margin-top: 100px;
+  }
+
+  .music-menu{
+    font-size: 170%;
+  }
+  
+
+  .span_1_of_4 {
+    width: 25%; 
+  }
+
+  ul.Mslider,
+  .music-box,
+  .music-box iframe{
+      width:420px;
+      height:320px;
+  }
+
+  
+  .galeria{
+    height:65vh;
+  }
+
+  .slide-container{
+    margin-top:-290;
+  }
+  
+  .image-slider{
+    margin-left: -100px;
+  }
+
+  .slides-div{
+    margin:10px;
+  }
+
+  .slides-div img{
+    height:25vh;
+  }
+
+  #slider-span1:target ~ .image-slider{left:150%;}
+  #slider-span2:target ~ .image-slider{left:65%;}
+  #slider-span3:target ~ .image-slider{left:-21%;}
+  #slider-span4:target ~ .image-slider{left:-107%;}
+  #slider-span5:target ~ .image-slider{left:-195%;}
+
+
+  .contact-box{
+    margin-bottom: 40%;
+  }
+
+}
+

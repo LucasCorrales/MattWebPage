@@ -1,0 +1,543 @@
+/***** BODY LOGO *****/
+
+.body-logo{
+  background-color: #000000;
+  min-height: 95vh;
+  display:grid;
+  place-items:center;
+  font-size:5rem;
+  font-family:Abel;
+  color: #ffffff;
+  position: relative;
+ 
+}
+
+.logoM{
+  cursor:pointer;
+  text-decoration: none;
+  color:#ffffff;
+  border: currentColor 4px solid;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  position: absolute;
+  left:0;
+  top:0;
+  bottom:0;
+  right:0;
+  margin: auto;
+  opacity: 95% ;
+} 
+
+
+.logoM:hover{
+  text-shadow: 0 0 0.125em currentColor;
+  box-shadow: inset 0 0 0.2em 0, 0 0 0.2em 0; 
+}
+
+.logoM:hover::before{
+  pointer-events: none;
+  content:'';
+  position: absolute;
+  background:#ffffff;
+  top: 120%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: perspective(1em) rotateX(40deg) scale(1, 0.35);
+  filter: blur(1em);
+  opacity:65%;
+}
+
+
+/***** FOOTER LOGOS*****/
+
+
+.footer-logo{ 
+
+  font-size: 50%;
+  display: flex;
+  margin-top:40%;
+  margin-left: 55%;
+}
+
+.social-links li{
+  display: inline-block;
+  list-style: none;
+  opacity: 85%;  
+  
+}
+
+.social-links li a:link,
+.social-links li a:visited,
+.music-menu a i:link,
+.social-menu span:visited{
+  color: #ffffff;
+}
+
+.social-links li a:hover,
+.social-links li a:active,
+.music-menu a:hover,
+.music-menu a:active{
+  text-shadow: 0 0 0.150em currentColor;
+  
+}
+
+
+
+/***** HOME *****/
+
+html,
+body{
+  background-color: #000000;
+  color: #ffffff;
+  text-rendering: optimizeLegibility;
+  font-family: Abel;
+  font-size: 16px;
+}
+
+.row{
+  max-width: 1500px;
+  margin: 0 auto; 
+}
+
+
+
+/***** NAV BAR *****/
+
+.Hlogo{
+  cursor:pointer;
+  color: #ffffff;
+  text-decoration: none;
+  border: currentColor 4px solid;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border-width: 2.5px;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  position: absolute;
+  margin-left:30px;
+  margin-top: -1px;
+  font-size: 2rem;
+  background-color: #000000;
+} 
+
+
+.Hlogo:hover,
+.btn input:hover{
+  text-shadow: 0 0 0.150em currentColor;
+  box-shadow: inset 0 0 0.3em 0, 0 0 0.3em 0; 
+}
+
+
+
+.main-nav{
+  list-style: none;
+  text-align:right;
+  padding: 30px;
+  margin-top:10;
+  font-size: 150%;
+  
+}
+
+.main-nav li{
+  display: inline-block;
+  margin-right:20px;
+  text-transform: uppercase;
+}
+
+.main-nav li a{
+  text-decoration:none;
+  color: #ffffff;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+  text-shadow: 0 0 0.5em, 0 0 0.2em currentColor;
+}
+
+
+/***** HEADER *****/
+
+header{
+  background-image:url(img/header02.png);
+  background-size:cover;
+  height: 99vh;
+ 
+}
+
+/***** BIOGRAFIA *****/
+ 
+.biografia{
+  background-image: linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.3)),url(img/biografia222.jpg);
+  background-size: cover;
+  text-align:center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.bio-h{
+  margin:80px;
+  font-weight: 100;
+  text-align: center;
+  font-size: 250%;
+}
+
+.bio-box{
+  margin-top: 130px;
+  text-align: left;
+  line-height: 110%;
+  margin-bottom: 170px;
+  margin-right: 50px;
+  font-size: 120%;
+  background-color:rgba(0,0,0,.5);
+  width:500px;
+  float: right;
+  padding: 40px;
+}
+
+
+/****** MUSICA ******/
+
+.music-section{
+  margin-bottom: 100px;
+}
+
+
+.music-heading{
+  margin-top: 80px;
+  font-size: 300%;
+  text-align: center;
+  margin-bottom: 50px;
+  
+}
+
+.music-menu{
+  margin-top: 50px;
+  font-size: 180%; 
+  text-align: center;
+  margin: 0px;
+}
+
+.music-menu span
+{
+  color: #ffffff;
+  font-size: 180%;
+  font-weight: 300;
+}
+
+.music-menu a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.menu-h{
+  font-weight: 100;
+  margin-top: 10px;
+}
+
+
+ul, li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.Mslider iframe{
+  width:800px; 
+  height:600px;
+}
+
+ul.Mslider{
+  position: relative;
+  width: 800px;
+  height: 600px;
+}
+
+ul.Mslider li{
+  position: absolute;
+  visibility: hidden;
+  visibility: opacity .5s;
+  margin: 0;
+}
+
+ul.Mslider li:first-child{
+  visibility: visible;
+}
+
+ul.Mslider li:target{
+  visibility: visible;
+}
+
+.music-box{
+  margin-left:auto;
+  margin-right: auto;
+  width: 800px;
+  height: 600px;
+  padding: 30px;
+}
+
+/***** GALERIA *****/
+
+.galeria{
+  height:80vh;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.galeria h1{
+  color:#ffffff;
+  font-size: 300%;
+  text-align: center;
+}
+
+.slide-container{
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  margin-top: -100px;
+  margin-left:0px;
+  overflow: hidden;
+}
+
+.image-slider{
+  width: 100vh;
+  height: 100vh;
+  position:absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition:.7s;
+}
+
+.slides-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px; 
+}
+
+.image-slider img{
+  transition:.5s;
+  height: 50vh;
+  filter:saturate(10%);
+}
+
+.image-slider a{
+  transition:.5s;
+  background-color: rgba(0,0,0,.4);
+}
+
+.image-slider a img:hover{
+  filter:saturate(100%);
+}
+
+#slider-span1:target ~ .image-slider #img1,
+#slider-span1:target ~ .image-slider #button-1{
+  background-color: transparent;
+  filter:saturate(100%);
+}
+
+#slider-span2:target ~ .image-slider #img2,
+#slider-span2:target ~ .image-slider #button-2{
+  background-color: transparent;
+  filter:saturate(100%);
+}
+
+#slider-span3:target ~ .image-slider #img3,
+#slider-span3:target ~ .image-slider #button-3{
+  background-color: transparent;
+  filter:saturate(100%);
+}
+
+#slider-span4:target ~ .image-slider #img4,
+#slider-span4:target ~ .image-slider #button-4{
+  background-color: transparent;
+  filter:saturate(100%);
+}
+
+#slider-span5:target ~ .image-slider #img5,
+#slider-span5:target ~ .image-slider #button-5{
+  background-color: transparent;
+  filter:saturate(100%);
+}
+
+#slider-span1:target ~ .image-slider{left:90%;}
+#slider-span2:target ~ .image-slider{left:60%;}
+#slider-span3:target ~ .image-slider{left:25%;}
+#slider-span4:target ~ .image-slider{left:-25%;}
+#slider-span5:target ~ .image-slider{left:-70%;}
+
+
+
+/***** MAILING-LIST *****/
+
+.mailing-list{
+  background-image: url(img/mailing.png);
+  height: 86vh;
+
+}
+
+.contactForm{
+  width: 40%;
+  padding: 40px;
+  padding-right: 20px;
+  background-color: rgba(0,0,0,.7);
+  float:right;
+  width: 450px;
+  margin-top: 250px;
+  margin-bottom: 200px;
+  margin-right:7%;
+  justify-content: center;
+}
+
+.contactForm h2{
+  font-size: 300%;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+
+.contactForm p{
+  font-size: 110%;
+}
+
+
+.inputBox{
+  position: relative;
+  width: 89%;
+  margin-top:10px; 
+}
+
+.contactForm input{
+  width:104%;
+  padding: 5px 0;
+  font-size: 80%;
+  margin-top: 40px;
+  border:none;
+  border-bottom: 2px solid #ffffff;
+  background-color: #ffffff;
+  outline: none;
+  color: #000000;
+}
+
+
+
+.btn input:focus{
+  color: #000000;
+  background-color: #ffffff;
+  border: 2px solid #000000;
+}
+
+
+.contactForm span{
+  position:absolute;
+  padding: 5px 0;
+  font-size: 110%;
+  margin: 10px 0;
+}
+
+
+.btn input{
+  width:20%; 
+  font-family: Abel;
+  border: 2px solid #ffffff;
+  text-transform: uppercase;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+
+/***** CONTACTO *****/
+
+.contacto{
+  height: 100vh;
+  
+}
+
+.contacto video{
+  position: absolute;
+  left: 0;
+  object-fit: cover;
+  height: 100vh;
+  width: 100%;
+ 
+}  
+
+.contact-box{
+  background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  width: 500px;
+  height:300px;
+  text-align: center;
+  font-size: 300%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 260px; 
+  padding-top: 75px;
+  margin-bottom: 15%;
+}
+
+.contacto span{
+  font-weight: 100;
+  font-size: 150%;
+  padding-top:13px;
+}
+
+.border{
+  border: #ffffff 2px solid;
+  border-radius: 50%;
+  width:100px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.contacto p{
+  font-size: 50%;
+}
+
+
+.contacto ul{
+  display: flex;
+  justify-content: flex-end;
+  border: none;
+  font-size: 280%;
+  margin-right: 3%;
+}
+
+.contacto li{
+  margin-left: 1%;
+}
+
+#contakt 
+
+
+/***** FOOTER *****/
+
+.footer{
+  width:100%;
+  object-position: center;
+}
+
+.footer li{
+  font-size: 100%;
+ 
+} 
+
+.footer p{
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top:28px;
+  margin-bottom: 25px;
+}
